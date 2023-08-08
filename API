@@ -1,0 +1,4 @@
+import requests
+api_endpoints = "https://zcuwflxqsxrsmwseehqvjmnx2u0cdigp.lamda-url.ap-south-1.on.aws/mentorskool/v1/sales"
+response = requests.get(api_endpoints,headers={"access_token":"fe6658bfe5185048c66571293e0d358"})
+print{"content:",response.text)
